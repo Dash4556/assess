@@ -1,0 +1,4 @@
+SELECT email
+FROM public.email_table a JOIN public.data_table b
+ON a.join_id = b.join_id
+WHERE column_1 % 2 = 0 and column_2 < column_1 and CAST(column_3 AS varchar) like '%1'
