@@ -17,10 +17,10 @@ import numpy as np
 import random
 
 def four_checker():
-  A, B = random.randint(1, 9), random.randint(2, 8)
+  A, B = random.randint(2, 8), random.randint(2, 8)
   C = A * B
   while C != 4:
-    A, B = random.randint(1, 9), random.randint(2, 8)
+    A, B = random.randint(2, 8), random.randint(2, 8)
     C = A * B
     print(A, C)
   print('Success! \nResults for A and B: ', A, 'and', B)
